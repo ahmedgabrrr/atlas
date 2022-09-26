@@ -145,13 +145,21 @@ header img {
     transition: 0.3s ease-in-out;
 }
 
+@media only screen and (max-width: 992px) {
+
+    .about .aboutPhotos ul li .imageArea1,
+    .about .aboutPhotos ul li .imageArea2 {
+        animation: none;
+    }
+}
+
 .about .aboutPhotos ul li .imageArea3 {
     border-radius: 25% 25% 25% 0;
     width: 90%;
     height: 85%;
 
-
 }
+
 
 .about .aboutPhotos .exp {
     text-align: center;
